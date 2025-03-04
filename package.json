@@ -2,14 +2,11 @@
   "name": "mvc",
   "version": "1.0.0",
   "main": "server.js",
-
   "homepage": "https://your-username.github.io/repository-name",
-
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d .",
     "start": "node server.js",
-    "build": "react-scripts build",
     "dev": "nodemon server.js"
   },
   "keywords": [],
@@ -26,5 +23,3 @@
   },
   "description": ""
 }
-
-
