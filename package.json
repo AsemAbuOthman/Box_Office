@@ -9,6 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node server.js",
+    "build": "react-scripts build",
     "dev": "nodemon server.js"
   },
   "keywords": [],
@@ -25,3 +26,5 @@
   },
   "description": ""
 }
+
+
